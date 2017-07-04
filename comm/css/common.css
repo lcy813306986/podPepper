@@ -1,0 +1,128 @@
+body,h1,h2,h3,h4,h5,h6,p,ul{
+	overflow: auto;
+	background:#fff;
+	font-size: 14px;
+	padding: 0;
+	margin: 0;
+}
+.bg{
+	position:fixed;
+	width:100%;
+	height:100%;
+	z-index: 10;
+}
+input[type="text"],input[type="password"]{
+	background-color:transparent;
+	box-sizing: border-box;
+	font-size:0.8em;
+	height:2.7em;
+	border:1px solid #d2f1f4;
+	color:#6a6f77;
+	-web-kit-appearance:none;
+	-moz-appearance: none;
+	display:block;
+	outline:0;
+	padding:0 1em;
+	text-decoration:none;
+	width: 92%;
+}
+input[type="checkbox"]{
+	box-sizing: border-box;
+	-web-kit-appearance:none;
+	-moz-appearance: none;
+	outline:0;
+	padding:0 1em;
+	text-decoration:none;
+}
+input[type="password"]:focus{
+  	border:1px solid #3881ac;
+}
+input[type="text"]:focus{
+  	border:1px solid #3881ac;
+}
+::-webkit-input-placeholder { /* WebKit browsers */ 
+	color: #d2f1f4;
+} 
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */ 
+	color: #d2f1f4;
+} 
+::-moz-placeholder { /* Mozilla Firefox 19+ */ 
+	color: #d2f1f4;
+} 
+:-ms-input-placeholder { /* Internet Explorer 10+ */ 
+	color: #d2f1f4;
+} 
+button{
+	position: relative;
+	display: inline-block;
+	background: #d2f1f4;
+	border: 1px solid #99D3F5;
+	border-radius: 20px;
+	padding: 4px 12px;
+	color: #00b6c2;
+	text-decoration: none;
+	text-indent: 0;
+	height: 35px;
+	line-height: 25px;
+	width: 92%;
+}
+a {
+   	color: #767d82;
+}
+a:focus, a:active, a:hover {
+   	color: #5d91e5;
+}
+.divNone{
+	display: none;
+}
+.boderRadiu{border-radius:20px;}
+.margin20 {margin:20px;}
+.mt20 {margin-top:20px;}
+.ml20 {margin-left:20px;}
+.mr20 {margin-right:20px;}
+.mb20 {margin-bottom:20px;}
+.margin10 {margin:10px;}
+.mt10 {margin-top:10px;}
+.ml10 {margin-left:10px;}
+.mr10 {margin-right:10px;}
+.mb10 {margin-bottom:10px;}
+.padding20{padding:20px;}
+.pt20 {padding-top:20px;}
+.pl20 {padding-left:20px;}
+.pr20 {padding-right:20px;}
+.pb20 {padding-bottom:20px;}
+.padding10{padding:10px;}
+.pt10 {padding-top:10px;}
+.pt60 {padding-top:60px;}
+.pl10 {padding-left:10px;}
+.pr10 {padding-right:10px;}
+.pb10 {padding-bottom:10px;}
+.pt5 {padding-top:5px;}
+.pl5 {padding-left:5px;}
+.pr5 {padding-right:5px;}
+.pb5 {padding-bottom:5px;}
+.margin5 {margin:5px;}
+.mt5 {margin-top:5px!important;;}
+.ml5 {margin-left:5px;}
+.mr5 {margin-right:5px;}
+.mb5 {margin-bottom:5px!important;;}
+
+/*垂直居中*/
+.verticalAlign{ vertical-align:middle; display:inline-block; height:100%; margin-left:-1px;}
+.msgbox .xc_layer{position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: #666666; opacity: 0.5; z-index: 2147000000;}
+.msgbox .popBox{position: fixed; left: 50%; top: 50%; background-color: #ffffff; z-index: 2147000001; width: 420px; height: 250px; margin-left: -285px; margin-top: -150px; border-radius: 5px; font-weight: bold; color: #535e66;}
+.popBox1{position: fixed; left: 50%; top: 50%; background-color: #ffffff; z-index: 2147000001; width: 500px; height: 300px; margin-left: -285px; margin-top: -150px; border-radius: 5px; font-weight: bold; color: #535e66;}
+.msgbox .popBox .ttBox{height: 30px; line-height: 30px; padding: 14px 30px; border-bottom: solid 1px #eef0f1;}
+.msgbox .popBox .ttBox .tt{font-size: 18px; display: block; float: left; height: 30px; position: relative;}
+.msgbox .popBox .ttBox .clsBtn{display: block; cursor: pointer; width: 12px; height: 12px; position: absolute; top: 22px; right: 30px; background: url(../../../image/icons.png) -48px -96px no-repeat;}
+.msgbox .popBox .txtBox{margin: 40px 100px; height: 50px; overflow: hidden;}
+.msgbox .popBox .txtBox .bigIcon{float: left; margin-right: 20px; width: 48px; height: 48px; background-image: url(../../../image/icons.png); background-repeat: no-repeat; background-position: 48px 0;}
+.msgbox .popBox .txtBox p{ height: 84px; margin-top: 16px; line-height: 26px; overflow-x: hidden; overflow-y: auto;}
+.msgbox .popBox .txtBox p input{width: 364px; height: 30px; border: solid 1px #eef0f1; font-size: 18px; margin-top: 6px;}
+.msgbox .popBox .btnArea{border-top: solid 1px #eef0f1;}
+.msgbox .popBox .btnGroup{float: right;}
+.msgbox .popBox .btnGroup .sgBtn{margin-top: 14px; margin-right: 10px;}
+.msgbox .popBox .sgBtn{display: block; cursor: pointer; float: left; width: 95px; height: 35px; line-height: 35px; text-align: center; color: #FFFFFF; border-radius: 5px;}
+.msgbox .popBox .sgBtn.ok{background-color: #0095d9; color: #FFFFFF;}
+.msgbox .popBox .sgBtn.cancel{background-color: #546a79; color: #FFFFFF;}
+.has-err{width: 364px; height: 30px; border: solid 1px red !importent; font-size: 18px; margin-top: 6px;}

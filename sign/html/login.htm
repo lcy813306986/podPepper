@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>富农贷经销商系统登陆</title>
+	<link rel="stylesheet"  type="text/css"  href="../../comm/css/common.css" />
+	<script  type="text/javascript" src="../../comm/js/jquery-1.9.1.js"></script>
+	<script  type="text/javascript" src="../../comm/js/core.js"></script>
+	<script  type="text/javascript" src="../../comm/js/msgbox.js"></script>
+	<script  type="text/javascript" src="../../comm/js/getway.js"></script>
+	<script  type="text/javascript" src="../../comm/js/util.js"></script>
+	<style type="text/css">
+		.login{
+			position: relative;
+			margin:0px auto;
+			width: 25%;
+			height: 500px;
+			z-index:999;
+		}
+		/*.login-head{
+			background: #3881ac;
+			color:#fff;
+			height: 38%;
+		}
+		.changeImage span img{
+			margin-top: 20px;
+			width:25px;
+			height: 25px;
+			display: block;
+			position: absolute;
+		}
+		.changeImage  img{
+			height:60px;
+			float: left;
+		}
+		@media screen and  (min-width: 1024px){
+			.changeImage span img{
+				left: 20px;
+			}
+			.changeImage{
+				margin: 3% 10% auto;
+			}
+			.changeImage  img{
+				width:31%;
+			}
+
+		}
+		@media screen  and (max-width: 1024px){
+			.changeImage span img{
+				left: 5px;
+			}
+			.changeImage{
+				margin: 3% 5% auto;
+			}
+			.changeImage  img{
+				width:28%;
+			}
+		}
+		.changeImage  div  img:hover{
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			box-sizing: border-box;
+			border: 1px solid #fff;
+		}
+		.login-main{
+			background: #fff;
+			height: 57%;
+		}*/
+		#loginForm span{
+			color:#fff605;
+		}
+		/*#loginForm p span{
+			font-size:25px;
+		}
+		#loginForm a{
+			position: absolute;
+			display: inline-block;
+			right:8%;
+		}
+		.login-footer{
+			background: #fff;
+			height: 5%;
+		}*/
+	</style>
+</head>
+<body>
+	<div class="main-container">
+		<div>
+			<img src="../../image/bg.jpg" alt="这是一张背景图" class="bg"/>
+		</div>	
+		<div class="login">
+			<div class="login-head">
+				<div class="pl20 pt20">
+					<span><img src="../../image/logo.png"/></span>
+				</div>
+			</div>
+			<div class="login-main">
+				<form id="loginForm">
+					<span>欢迎登陆，经销商专用系统</span>
+					<div class="pl20 pt20">
+						<input type="text" class="boderRadiu" placeholder="请输入手机号" name="mobile" maxlength="11">
+					</div>
+					<div class="pl20 pt10">
+						<input type="password" class="boderRadiu" placeholder="请输入sdfasg密码" name="pwd" autocomplete="off">
+					</div>
+					<div  class="pl20 pt10">
+						<button data-type="btn-login" type="button"> 登　录</button>
+					</div>
+					 
+				</form>	
+			</div>
+			<div class="login-footer">
+				
+			</div>
+		</div>
+	</div>
+</body> 
+<script  type="text/javascript" src="../js/login.js"></script>
+</html>
+
