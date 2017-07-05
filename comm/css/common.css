@@ -1,9 +1,11 @@
-body,h1,h2,h3,h4,h5,h6,p,ul{
+body,h1,h2,h3,h4,h5,h6,p{
 	overflow: auto;
-	background:#fff;
 	font-size: 14px;
 	padding: 0;
 	margin: 0;
+}
+ul{
+	list-style-type:none;
 }
 .bg{
 	position:fixed;
@@ -14,15 +16,15 @@ body,h1,h2,h3,h4,h5,h6,p,ul{
 input[type="text"],input[type="password"]{
 	background-color:transparent;
 	box-sizing: border-box;
-	font-size:0.8em;
-	height:2.7em;
+	font-size:1.1em;
+	height:2.8em;
 	border:1px solid #d2f1f4;
 	color:#6a6f77;
 	-web-kit-appearance:none;
 	-moz-appearance: none;
 	display:block;
 	outline:0;
-	padding:0 1em;
+	padding:0 2em;
 	text-decoration:none;
 	width: 92%;
 }
@@ -62,7 +64,7 @@ button{
 	color: #00b6c2;
 	text-decoration: none;
 	text-indent: 0;
-	height: 35px;
+	height:2.8em;
 	line-height: 25px;
 	width: 92%;
 }
@@ -83,10 +85,14 @@ a:focus, a:active, a:hover {
 .mb20 {margin-bottom:20px;}
 .margin10 {margin:10px;}
 .mt10 {margin-top:10px;}
+.ml60 {margin-left:60px;}
+.mt30 {margin-top:30px;}
 .ml10 {margin-left:10px;}
 .mr10 {margin-right:10px;}
 .mb10 {margin-bottom:10px;}
 .padding20{padding:20px;}
+.pt30 {padding-top:30px;}
+.pr50 {padding-right:50px;}
 .pt20 {padding-top:20px;}
 .pl20 {padding-left:20px;}
 .pr20 {padding-right:20px;}
@@ -126,3 +132,73 @@ a:focus, a:active, a:hover {
 .msgbox .popBox .sgBtn.ok{background-color: #0095d9; color: #FFFFFF;}
 .msgbox .popBox .sgBtn.cancel{background-color: #546a79; color: #FFFFFF;}
 .has-err{width: 364px; height: 30px; border: solid 1px red !importent; font-size: 18px; margin-top: 6px;}
+
+
+
+.main-container{
+	width: 100%;
+	margin:0px auto;
+}
+.content{
+	width:100%;
+}
+.content-left{
+	background: url("../../image/bg2.png");
+	border-right: 1px solid #48607e;
+	border-bottom: 1px solid #48607e;
+	width:19%;
+	height: 700px;
+	float: left;
+	font-size: 16px;
+	color:#fff;
+}
+.content-left .logo{
+	display: block;
+	margin: 10px;
+	margin-left: 100px;
+}
+.content-left ul{
+	display: block;
+}
+.content-left ul li{
+	display: block;
+	width: 95%;
+	height: 40px;
+}
+#gui div{
+	margin-left: 35px;
+	margin-top: 15px;
+}
+.content-left p{
+	font-size: 16px;
+	margin-left: 50px;
+}
+.content-left p img{
+	width: 15px;
+	height: 15px;
+}
+.content-right{
+	background-color:#f2f6f9;
+	width: 80%;
+	height:700px;
+	margin-left: 9px;
+	float: left;
+}
+.content-rightHead{
+	width: 100%;
+	height:80px;
+}
+.content-rightHead .user{
+	float: right;
+}
+.content-rightHead .user span{
+	margin-left: 10px;
+	float: left;
+}
+.content-rightHead .user img{
+	margin-top: 15px;
+	margin-right: 20px;
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+}

@@ -13,74 +13,20 @@
 		.login{
 			position: relative;
 			margin:0px auto;
-			width: 25%;
+			width:350px;
 			height: 500px;
 			z-index:999;
 		}
-		/*.login-head{
-			background: #3881ac;
-			color:#fff;
-			height: 38%;
+		.login-head img{
+			margin-top:120px;
+			margin-left:115px;
+			width:120px;
+			height: 160px;	
 		}
-		.changeImage span img{
-			margin-top: 20px;
-			width:25px;
-			height: 25px;
-			display: block;
-			position: absolute;
-		}
-		.changeImage  img{
-			height:60px;
-			float: left;
-		}
-		@media screen and  (min-width: 1024px){
-			.changeImage span img{
-				left: 20px;
-			}
-			.changeImage{
-				margin: 3% 10% auto;
-			}
-			.changeImage  img{
-				width:31%;
-			}
-
-		}
-		@media screen  and (max-width: 1024px){
-			.changeImage span img{
-				left: 5px;
-			}
-			.changeImage{
-				margin: 3% 5% auto;
-			}
-			.changeImage  img{
-				width:28%;
-			}
-		}
-		.changeImage  div  img:hover{
-			-webkit-box-sizing: border-box;
-			-moz-box-sizing: border-box;
-			box-sizing: border-box;
-			border: 1px solid #fff;
-		}
-		.login-main{
-			background: #fff;
-			height: 57%;
-		}*/
-		#loginForm span{
+		.login-head span{
 			color:#fff605;
+			font-size:1.2em;
 		}
-		/*#loginForm p span{
-			font-size:25px;
-		}
-		#loginForm a{
-			position: absolute;
-			display: inline-block;
-			right:8%;
-		}
-		.login-footer{
-			background: #fff;
-			height: 5%;
-		}*/
 	</style>
 </head>
 <body>
@@ -90,20 +36,20 @@
 		</div>	
 		<div class="login">
 			<div class="login-head">
-				<div class="pl20 pt20">
+				<div>
 					<span><img src="../../image/logo.png"/></span>
 				</div>
+				<span class="ml60">欢迎登陆，经销商专用系统</span>
 			</div>
 			<div class="login-main">
 				<form id="loginForm">
-					<span>欢迎登陆，经销商专用系统</span>
 					<div class="pl20 pt20">
 						<input type="text" class="boderRadiu" placeholder="请输入手机号" name="mobile" maxlength="11">
 					</div>
-					<div class="pl20 pt10">
-						<input type="password" class="boderRadiu" placeholder="请输入sdfasg密码" name="pwd" autocomplete="off">
+					<div class="pl20 pt20">
+						<input type="password" class="boderRadiu" placeholder="请输入密码" name="pwd" autocomplete="off">
 					</div>
-					<div  class="pl20 pt10">
+					<div  class="pl20 pt20">
 						<button data-type="btn-login" type="button"> 登　录</button>
 					</div>
 					 

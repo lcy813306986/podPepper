@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>富农贷经销商系统</title>
+	<link rel="stylesheet"  type="text/css"  href="../../comm/css/common.css" />
+	<link href="../../../lib/Datepicker/css/foundation-datepicker.css" rel="stylesheet" type="text/css">
+	<script  type="text/javascript" src="../../comm/js/jquery-1.9.1.js"></script>
+	<script  type="text/javascript" src="../../comm/js/core.js"></script>
+	<script  type="text/javascript" src="../../comm/js/msgbox.js"></script>
+	<script  type="text/javascript" src="../../comm/js/getway.js"></script>
+	<script  type="text/javascript" src="../../comm/js/util.js"></script>
+	<script  type="text/javascript" src="../../lib/highcharts.js"></script>
+	<script  type="text/javascript" src="../../lib/light.js"></script>
+	<style type="text/css">
+		body{
+			background-color:#f2f6f9;
+		}
+		.content-rightTitle span{
+			font-size: 16px;
+		}
+		.content-rightCon{
+			width: 100%;
+			height:500px;
+			font-size: 16px;
+		}
+		.content-rightTitle .chart{
+			background-color: #fff;
+			width: 58%;
+			height: 500px;
+			display: inline-block;
+			float: left;
+		}
+		.content-rightTitle .data{
+			background-color: #fff;
+			width: 35%;
+			height: 500px;
+			display: inline-block;
+			float: left;
+		}
+		.content-rightTitle .data div{
+			position: relative;
+			color:#fff;
+			border-radius: 5px;
+			margin:0px auto;
+			width:88%;
+			height: 25%;
+			margin-top: 20px;
+		}
+		.content-rightTitle .data div p{
+			margin-top: 20px;
+			margin-left: 30px;
+			font-size: 20px;
+		}
+		.content-rightTitle .data div span{
+			display: block;
+			position: absolute;
+			right: 15px;
+			top:10px;
+			z-index: 999;
+		}
+		.content-rightTitle .data .apply{
+			background: #4cd6f4;
+		}
+		.content-rightTitle .data .pass{
+			background: #ffaf31;
+		}
+		.content-rightTitle .data .reject{
+			background: #aaaaaa;
+		}
+	</style>
+</head>
+<body>
+	<div class="main-container">
+		<div class="content">
+			<div class="content-left">
+			<span class="logo"><img src="../../image/logo_mini.png"/></span>
+			
+				<div id="gui">
+					<p id="cfd1"><img  src="../../image/7.png"/>&nbsp;&nbsp;首页</p>
+					<div class="gui1">
+				                     <ul>
+				                        
+				                     </ul>
+				             </div>
+				             <p id="cfd2"><img  src="../../image/4.png"/>&nbsp;&nbsp;预授信管理</p>
+					<div class="gui2">
+				                     <ul>
+				                       	
+				                     </ul>
+				             </div>
+				             <p id="cfd3"><img  src="../../image/5.png"/>&nbsp;&nbsp;贷款管理</p>
+					<div class="gui3" style="display:none;">
+				                     	<ul>
+							<li>富农贷管理</li>
+							<li>还款计划</li>
+							<li>保证金管理</li>
+						</ul>
+				             </div>     
+				             <p id="cfd4" class="mt20"><img  src="../../image/6.png"/>&nbsp;&nbsp;退出</p>
+					<div class="gui4">
+				                     	<ul>
+							
+						</ul>
+				             </div>
+				</div>
+			</div>
+			<div class="content-right">
+				<div class="content-rightHead">
+					<div class="user">
+						<span><img src="../../image/head.jpg"/></span>
+						<span class="mt30 pr50">张三丰</span>
+					</div>
+				</div>
+				<div class="content-rightTitle">
+					<div class="title ml20">
+						<p>
+							<span style="font-size:22px;">您好，张三丰</span>
+							<span class="pl20">欢迎登陆经销商富农贷专用系统</span>
+						</p>
+					</div>
+					<div class="content-rightCon mt20">
+						<div class="chart ml20  mt20">
+							<p class="mt20 ml20"><span>信贷笔数</span></p>
+							<div id="container" width="200" height="200">
+						
+							</div>
+						</div>
+						<div class="data ml20 mt20">	
+							<p class="mt20 ml20"><span>信贷金额</span></p>
+							<div class="apply">
+								<p class="pt20">申请金额</p>
+								<p>501,133元</p>
+								<span><img src="../../image/1.png"/></span>
+							</div>
+							<div class="pass">
+								<p class="pt20">通过金额</p>
+								<p>2,354,600元</p>
+								<span><img src="../../image/2.png"/></span>
+							</div>
+							<div class="reject">
+								<p class="pt20">拒绝金额</p>
+								<p >155,320元</p>
+								<span><img src="../../image/3.png"/></span>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+</body> 
+<script  type="text/javascript" src="../js/index.js"></script>
+</html>

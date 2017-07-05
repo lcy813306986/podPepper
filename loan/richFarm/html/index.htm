@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>富农贷经销商系统</title>
+	<link rel="stylesheet"  type="text/css"  href="../../../comm/css/common.css" />
+	<link href="../../../lib/Datepicker/css/foundation-datepicker.css" rel="stylesheet" type="text/css">
+	<script  type="text/javascript" src="../../../comm/js/jquery-1.9.1.js"></script>
+	<script  type="text/javascript" src="../../../comm/js/core.js"></script>
+	<script  type="text/javascript" src="../../../comm/js/msgbox.js"></script>
+	<script  type="text/javascript" src="../../../comm/js/getway.js"></script>
+	<script  type="text/javascript" src="../../../comm/js/util.js"></script>
+	<script  type="text/javascript" src="../../../lib/highcharts.js"></script>
+	<script  type="text/javascript" src="../../../lib/light.js"></script>
+	<style type="text/css">
+		body{
+			background: #f2f6f9;
+		}
+		.content-rightTitle .title p{
+			width: 100%;
+			height: 2px;
+			background: #00bae1;
+		}
+		.content-rightCon p{
+			display: inline-block;
+			font-size: 16px;
+		}
+		.content-rightCon p input{
+			border: 1px solid #00bae3;
+			margin-right: 20px;
+			float: right;
+			width:250px;
+			height: 30px;
+		}
+		.content{
+			background: #fff;
+			height: 620px;
+		}
+		.content-rightTitle{
+			background: #fff;
+		}
+		.content-rightTable{
+			background: #fff;
+		}
+		.content-rightTable table{
+			border:solid #d7d7d7; 
+			border-width:1px 0px 0px 1px;
+			margin-top: 20px;
+			width: 1000px;
+		}
+		.content-rightTable table td,th{
+			text-align: center;
+			width: 200px;
+			height: 20px;
+			border:solid #d7d7d7; 
+			border-width:0px 1px 1px 0px; 
+			padding:10px 0px;
+		}
+		.content-rightTable table th{
+			height: 20px;
+			background:#e3faff;
+		}
+	</style>
+</head>
+<body>
+	<div class="main-container">
+		<div class="content">
+			<div class="content-left">
+			<span class="logo"><img src="../../../image/logo_mini.png"/></span>
+			
+				<div id="gui">
+					<p id="cfd1"><img  src="../../../image/7.png"/>&nbsp;&nbsp;首页</p>
+					<div class="gui1">
+				                     <ul>
+				                        
+				                     </ul>
+				             </div>
+				             <p id="cfd2"><img  src="../../../image/4.png"/>&nbsp;&nbsp;预授信管理</p>
+					<div class="gui2">
+				                     <ul>
+				                       	
+				                     </ul>
+				             </div>
+				             <p id="cfd3"><img  src="../../../image/5.png"/>&nbsp;&nbsp;贷款管理</p>
+					<div class="gui3" style="display:none;">
+				                     	<ul>
+							<li>富农贷管理</li>
+							<li>还款计划</li>
+							<li>保证金管理</li>
+						</ul>
+				             </div>     
+				             <p id="cfd4" class="mt20"><img  src="../../../image/6.png"/>&nbsp;&nbsp;退出</p>
+					<div class="gui4">
+				                     	<ul>
+							
+						</ul>
+				             </div>
+				</div>
+			</div>
+			<div class="content-right">
+				<div class="content-rightHead">
+					<div class="user">
+						<span><img src="../../../image/head.jpg"/></span>
+						<span class="mt30 pr50">张三丰</span>
+					</div>
+				</div>
+				<div class="content">
+					<div class="content-rightTitle">
+						<div class="title ml20">
+							<p></p>
+						</div>
+						<div class="content-rightCon mt20 ml20">
+							<p class="ml20">富农贷管理</p>
+							<p style="float:right;"><input type="text" class="boderRadiu"/></p>
+						</div>
+					</div>
+					<div class="content-rightTable">
+						<table cellspacing="0" cellpadding="0" align="center">
+							<thead>
+								<tr>
+									<th>贷款编码</th>
+									<th>姓名</th>
+									<th>身份证号码</th>
+									<th>申请金额（元）</th>
+									<th>终审金额（元）</th>
+									<th>申请时间</th>
+									<th>贷款状态</th>
+									<th>操作</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>201703102564</td>
+									<td>马花花</td>
+									<td>1233456325</td>
+									<td>5</td>
+									<td>7</td>
+									<td>8</td>
+									<td>待提交</td>
+									<td>详情</td>
+								</tr>
+								<tr>
+									<td>201703102565</td>
+									<td>市多点</td>
+									<td>55645345</td>
+									<td>5</td>
+									<td>7</td>
+									<td>8</td>
+									<td>审批中</td>
+									<td>详情</td>
+								</tr>
+								<tr>
+									<td>201703102566</td>
+									<td>祝福</td>
+									<td>5786245</td>
+									<td>5</td>
+									<td>7</td>
+									<td>8</td>
+									<td>已通过</td>
+									<td>详情</td>
+								</tr>
+								<tr>
+									<td>201703102567</td>
+									<td>是的哦</td>
+									<td>1342322</td>
+									<td>5</td>
+									<td>7</td>
+									<td>8</td>
+									<td>已拒绝</td>
+									<td>详情</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+</body> 
+<script  type="text/javascript" src="../js/index.js"></script>
+</html>
