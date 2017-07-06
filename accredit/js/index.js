@@ -32,12 +32,24 @@
 
     var modal=document.getElementById('modal');
     var question=document.getElementById('question');
-    modal.addEventListener('click',function(){
-        modal.style.display='none';
-    });
+    if (typeof document.addEventListener != "undefined"){
+        modal.addEventListener('click',function(){
+            modal.style.display='none';
+        });
 
-    question.addEventListener('click',function(){
-        modal.style.display='block';
-    });
+        question.addEventListener('click',function(){
+            modal.style.display='block';
+        });
+    }else{
+        modal.attachEvent('onclick',function(){
+            modal.style.display='none';
+        });
+
+        question.attachEvent('onclick',function(){
+           modal.style.display='block';
+        });
+    }
+
+
 
 })(window);
