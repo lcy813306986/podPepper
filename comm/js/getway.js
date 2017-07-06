@@ -86,7 +86,7 @@
                 statusCode: {
                     401: function(){
                         Omega.core.msgbox.toast("服务器超时...重新登录", function(){
-                            location.href = that.config.api() + '/sign/login.htm?returnUrl=' + window.encodeURIComponent(location.href);
+                            location.href = that.config.api() + '/sign/login.html?returnUrl=' + window.encodeURIComponent(location.href);
                         });
                     },
                     403: function(){

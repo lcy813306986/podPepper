@@ -99,7 +99,7 @@
    		// 	data : DATA,
    		// 	succ : function(json){
    		// 		if(json.code ==0){
-   					location.href="../../home/html/index.htm";
+   					location.href="../../home/html/index.html";
    		// 		}else{
    		// 			window.Simga.msgbox(json.msg, window.Simga.msgbox.typeEnum.warning);
    		// 		}
