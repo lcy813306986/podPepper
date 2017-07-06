@@ -2,7 +2,6 @@
 	var document = window.document;
 	var mainEle = $('.main-container'),popupReset = $("#resetModal");
 	function bindEvent(){
-            console.log(name);
 		mainEle.delegate('.changeImage div img','click',function(){
 			var imgSrc = $(this).attr("src");
 			mainEle.find('.bg').attr('src',imgSrc);
@@ -83,29 +82,29 @@
     	*用户登陆
     	*/
     	function userLlogin(){
-    		var _this = $(this) , err =  '';
+    	// 	var _this = $(this) , err =  '';
 
-   		if(!verifyData()){
-   			return false;
-   		}
+   		// if(!verifyData()){
+   		// 	return false;
+   		// }
 
-   		var mobile = $.trim(mainEle.find('input[name="mobile"]').val());
-    		var pwd = $.trim(mainEle.find('input[name="pwd"]').val());
-   		var DATA = {};
-   		DATA.mobile = mobile;
-   		DATA.pwd = pwd;
-   		//发送请求
-   		Omega.core.getway.post({
-   			cgi : "/user/login",
-   			data : DATA,
-   			succ : function(json){
-   				if(json.code ==0){
-   					location.href="../../home/html/index.htm?name="+json.data[0].u_name;
-   				}else{
-   					window.Simga.msgbox(json.msg, window.Simga.msgbox.typeEnum.warning);
-   				}
-   			}
-   		});
+   		// var mobile = $.trim(mainEle.find('input[name="mobile"]').val());
+    	// 	var pwd = $.trim(mainEle.find('input[name="pwd"]').val());
+   		// var DATA = {};
+   		// DATA.mobile = mobile;
+   		// DATA.pwd = pwd;
+   		// //发送请求
+   		// Omega.core.getway.post({
+   		// 	cgi : "/user/login",
+   		// 	data : DATA,
+   		// 	succ : function(json){
+   		// 		if(json.code ==0){
+   					location.href="../../home/html/index.htm";
+   		// 		}else{
+   		// 			window.Simga.msgbox(json.msg, window.Simga.msgbox.typeEnum.warning);
+   		// 		}
+   		// 	}
+   		// });
     		
     	}
 

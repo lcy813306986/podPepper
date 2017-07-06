@@ -4,7 +4,6 @@
 	<meta charset="UTF-8" />
 	<title>富农贷经销商系统</title>
 	<link rel="stylesheet"  type="text/css"  href="../../../comm/css/common.css" />
-	<link href="../../../lib/Datepicker/css/foundation-datepicker.css" rel="stylesheet" type="text/css">
 	<script  type="text/javascript" src="../../../comm/js/jquery-1.9.1.js"></script>
 	<script  type="text/javascript" src="../../../comm/js/core.js"></script>
 	<script  type="text/javascript" src="../../../comm/js/msgbox.js"></script>
@@ -13,7 +12,7 @@
 	<script  type="text/javascript" src="../../../lib/highcharts.js"></script>
 	<script  type="text/javascript" src="../../../lib/light.js"></script>
 	<style type="text/css">
-		body{
+	body{
 			background: #f2f6f9;
 		}
 		.content-rightTitle .title p{
@@ -22,8 +21,12 @@
 			background: #00bae1;
 		}
 		.content-rightCon p{
+			position: relative;
 			display: inline-block;
 			font-size: 16px;
+		}
+		.content-rightCon p img{
+			position: absolute;
 		}
 		.content-rightCon p input{
 			border: 1px solid #00bae3;
@@ -59,23 +62,7 @@
 		.content-rightTable{
 			background: #fff;
 		}
-		.content-rightTable table{
-			border:solid #d7d7d7; 
-			border-width:1px 0px 0px 1px;
-			width: 1000px;
-		}
-		.content-rightTable table td,th{
-			text-align: center;
-			width: 200px;
-			height: 20px;
-			border:solid #d7d7d7; 
-			border-width:0px 1px 1px 0px; 
-			padding:10px 0px;
-		}
-		.content-rightTable table th{
-			height: 20px;
-			background:#e3faff;
-		}
+		
 	</style>
 </head>
 <body>
@@ -98,11 +85,11 @@
 				                     </ul>
 				             </div>
 				             <p id="cfd3"><img  src="../../../image/5.png"/>&nbsp;&nbsp;贷款管理</p>
-					<div class="gui3" style="display:none;">
+					<div class="gui3">
 				                     	<ul>
-							<li>富农贷管理</li>
-							<li>还款计划</li>
-							<li>保证金管理</li>
+							<li class="richFarm">富农贷管理</li>
+							<li class="repay">还款计划</li>
+							<li class="reposit">保证金管理</li>
 						</ul>
 				             </div>     
 				             <p id="cfd4" class="mt20"><img  src="../../../image/6.png"/>&nbsp;&nbsp;退出</p>
@@ -127,8 +114,8 @@
 						</div>
 						<div class="content-rightCon mt20 ml20">
 							<p class="ml20">保证金管理</p>
-							<p class="ml60"><a href="www.lcfarm.com"><img src="../../../image/9.png"/>&nbsp;&nbsp;累计交易金额：98亿 &nbsp;&nbsp;累计带来收益：2亿</a></p>
-							<p style="float:right;"><input type="text" class="boderRadiu"/></p>
+							<p class="ml60"><a href="www.lcfarm.com"><img src="../../../image/9.png"/><span class="ml60 pl20">累计交易金额：98亿 &nbsp;&nbsp;累计带来收益：2亿</span></a></p>
+							<p style="float:right;"><input type="text" class="boderRadiu"/><img  class="mt5 ml200" src="../../../image/10.png"/></p>
 						</div>
 					</div>
 					
