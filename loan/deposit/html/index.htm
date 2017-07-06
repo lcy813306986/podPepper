@@ -32,6 +32,11 @@
 			width:250px;
 			height: 30px;
 		}
+		.content-rightCon a{
+			font-size: 14px;
+			color: #ffb32f;
+			text-decoration:none;
+		}
 		.content{
 			background: #fff;
 			height: 620px;
@@ -39,13 +44,24 @@
 		.content-rightTitle{
 			background: #fff;
 		}
+		.content-rightDeposit div{
+			text-align: center;
+			line-height: 24px;
+			color: #fff;
+			margin-top: 15px;
+			margin-bottom: 15px;
+			float: left;
+			border-radius: 5px;
+			background: #ffb32f;
+			width: 150px;
+			height: 50px;
+		}
 		.content-rightTable{
 			background: #fff;
 		}
 		.content-rightTable table{
 			border:solid #d7d7d7; 
 			border-width:1px 0px 0px 1px;
-			margin-top: 20px;
 			width: 1000px;
 		}
 		.content-rightTable table td,th{
@@ -111,10 +127,35 @@
 						</div>
 						<div class="content-rightCon mt20 ml20">
 							<p class="ml20">保证金管理</p>
+							<p class="ml60"><a href="www.lcfarm.com"><img src="../../../image/9.png"/>&nbsp;&nbsp;累计交易金额：98亿 &nbsp;&nbsp;累计带来收益：2亿</a></p>
 							<p style="float:right;"><input type="text" class="boderRadiu"/></p>
 						</div>
 					</div>
-					<div class="content-rightTable">
+					
+					<div class="content-rightDeposit">
+						<div style="margin-left:35px;">
+							<p>保证金总额合计</p>
+							<p>1500,000元</p>
+						</div>
+						<div class="ml5">
+							<p>退还保证金合计</p>
+							<p>1500,000元</p>
+						</div>
+						<div class="ml5">	
+							<p>退还保证金利息合计</p>
+							<p>1500,000元</p>
+						</div>
+						<div class="ml5">	
+							<p>保证金抵扣金额合计</p>
+							<p>1500,000元</p>
+						</div>
+						<div class="ml5">	
+							<p>保证金余额合计</p>
+							<p>1500,000元</p>
+						</div>
+					</div>	
+					
+					<div class="content-rightTable mt20">
 						<table cellspacing="0" cellpadding="0" align="center">
 							<thead>
 								<tr>
@@ -124,6 +165,7 @@
 									<th>放款日期</th>
 									<th>到期日期</th>
 									<th>借款方保证金率</th>
+									<th>担保方保证金率</th>
 									<th>保证金总金额（元）</th>
 									<th>保证金抵扣金额（元）</th>
 									<th>保证金退还金额（元）</th>
