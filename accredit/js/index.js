@@ -20,7 +20,7 @@
             mainEle.delegate('#cfd3', 'click', function(event) {
                 location.href="../../loan/richFarm/html/index.htm";
             });
-             mainEle.delegate('.richFarm', 'click', function(event) {	
+             mainEle.delegate('.richFarm', 'click', function(event) {
                 location.href="../../loan/richFarm/html/index.htm";
             });
             mainEle.delegate('.repay', 'click', function(event) {
@@ -29,4 +29,15 @@
             mainEle.delegate('.reposit', 'click', function(event) {
                 location.href="../../loan/deposit/html/index.html";
             });
+
+    var modal=document.getElementById('modal');
+    var question=document.getElementById('question');
+    modal.addEventListener('click',function(){
+        modal.style.display='none';
+    });
+
+    question.addEventListener('click',function(){
+        modal.style.display='block';
+    });
+
 })(window);

@@ -4,6 +4,31 @@
 	<meta charset="UTF-8" />
 	<title>富农贷经销商系统</title>
 	<link rel="stylesheet"  type="text/css"  href="../../comm/css/common.css" />
+	<style type="text/css">
+	   .alert-modal{
+		   	z-index: 10000;
+		   	position: absolute;
+		   	left: 50%;
+		   	top: 50%;
+		   	margin-top:-250px;
+		   	margin-left: -310px;
+		   	height:500px;
+		   	width: 620px;
+		   	background-color: #fff;
+		   	display: none;
+	   }
+
+	   .question{
+		   	z-index: 10000;
+		   	position: absolute;
+	        left: 0;
+		    top: 0;
+	        margin-top: 679px;
+		    margin-left: 355px;
+		    height: 25px;
+		    width: 25px;
+	   }
+	</style>
 	<script  type="text/javascript" src="../../comm/js/jquery-1.9.1.js"></script>
 	<script  type="text/javascript" src="../../comm/js/core.js"></script>
 	<script  type="text/javascript" src="../../comm/js/msgbox.js"></script>
@@ -244,10 +269,11 @@
 						</table>
 					</div>
 				</div>
-				
 			</div>
 		</div>
 	</div>
-</body> 
-<script  type="text/javascript" src="../js/index.js"></script>
+	<img src="../../image/12.png" class="question" id="question"/>
+	<img src="../../image/11.png" class="alert-modal" id='modal' />
+	<script  type="text/javascript" src="../js/index.js"></script>
+</body>
 </html>
