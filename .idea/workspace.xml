@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="27a4180e-79d2-4089-ac3f-509a35169cf3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accredit/js/index.js" afterPath="$PROJECT_DIR$/accredit/js/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comm/js/getway.js" afterPath="$PROJECT_DIR$/comm/js/getway.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/js/index.js" afterPath="$PROJECT_DIR$/home/js/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/loan/deposit/js/index.js" afterPath="$PROJECT_DIR$/loan/deposit/js/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/loan/repay/js/index.js" afterPath="$PROJECT_DIR$/loan/repay/js/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/loan/richFarm/js/index.js" afterPath="$PROJECT_DIR$/loan/richFarm/js/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sign/js/login.js" afterPath="$PROJECT_DIR$/sign/js/login.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/accredit/html/index.htm" afterPath="$PROJECT_DIR$/accredit/html/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/home/html/index.htm" afterPath="$PROJECT_DIR$/home/html/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/loan/deposit/html/index.htm" afterPath="$PROJECT_DIR$/loan/deposit/html/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/loan/repay/html/index.htm" afterPath="$PROJECT_DIR$/loan/repay/html/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sign/html/login.htm" afterPath="$PROJECT_DIR$/sign/html/login.html" />
-    </list>
+    <list default="true" id="27a4180e-79d2-4089-ac3f-509a35169cf3" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -27,19 +13,22 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="podPepper" />
+  </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="server.prod.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="server.prod.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server.prod.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="152">
+              <caret line="8" column="60" lean-forward="true" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sign/html/login.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="353">
@@ -53,7 +42,7 @@
         <entry file="file://$PROJECT_DIR$/sign/js/login.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="267">
-              <caret line="98" column="24" lean-forward="true" selection-start-line="98" selection-start-column="24" selection-end-line="98" selection-end-column="24" />
+              <caret line="98" column="24" lean-forward="false" selection-start-line="98" selection-start-column="24" selection-end-line="98" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -174,6 +163,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="nodejs_interpreter_path" value="D:/Program Files/nodejs/node" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -259,12 +249,21 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1499345375460</updated>
-      <workItem from="1499345377708" duration="463000" />
+      <workItem from="1499345377708" duration="665000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="463000" />
+    <option name="totallyTimeSpent" value="665000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="223" y="14" width="1400" height="1000" extended-state="0" />
@@ -276,7 +275,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21799308" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -309,15 +308,7 @@
     <entry file="file://$PROJECT_DIR$/sign/js/login.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="267">
-          <caret line="98" column="24" lean-forward="true" selection-start-line="98" selection-start-column="24" selection-end-line="98" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server.prod.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <caret line="98" column="24" lean-forward="false" selection-start-line="98" selection-start-column="24" selection-end-line="98" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -326,6 +317,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="353">
           <caret line="63" column="39" lean-forward="false" selection-start-line="63" selection-start-column="39" selection-end-line="63" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.prod.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="60" lean-forward="true" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
           <folding />
         </state>
       </provider>
